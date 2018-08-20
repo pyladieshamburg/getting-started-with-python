@@ -4,11 +4,6 @@ Getting started with Python for Data Science
 
 Operating Systems: MAC and Linux 
 
-## 1. Customizing Your Terminal Settings:
-
-Life easier if you become accustomed to using terminal. By pimping your terminal, you boost the appearance and  get cool features that make your work more efficient.
-
-Setting up your terminal
 
 A. [Install Homebrew](https://brew.sh)
 
@@ -16,7 +11,15 @@ A. [Install Homebrew](https://brew.sh)
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-=======
+
+
+======= Thinking of pimping your terminal....
+## 1. Customizing Your Terminal Settings:
+
+Life easier if you become accustomed to using terminal. By pimping your terminal, you boost the appearance and  get cool features that make your work more efficient.
+
+Setting up your terminal
+
 
 A. Install [iterm2](https://www.iterm2.com/)
 
@@ -42,12 +45,13 @@ D. Set up AutoSuggestions:
 `brew install zsh-autosuggestions`
 
 
-* “Activate the autosuggestions:
+* “Activate  autosuggestions:  Open the .zshrc file with a text editor, and append the following line at the end of your .zshrc:
 
-** open .zshrc with a text editor, append the following line at the end of your .zshrc: source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-
-** force reload of your .zshrc:  source ~/.zshrc“
+ `source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh`
 
 
-Think of pimping your terminal....
+* Reload of your .zshrc:
+
+`source ~/.zshrc“`
+
+
