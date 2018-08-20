@@ -1,0 +1,43 @@
+Install Python (osx only)
+
+https://docs.python-guide.org/starting/install/osx/
+
+Install Xcode if missing (if you did the brew install it should be there)
+
+xcode-select --install
+
+
+install Python 2.7 
+Don’t use the default python on Mac as .. it’s not recommended (it will ask for sudo rights for every package installation and that is just bad)
+
+brew install python@2
+
+export PATH="/usr/local/opt/python@2/libexec/bin:$PATH"
+
+linux and osx
+Install python virtual environment (virtualenv)
+https://github.com/pyenv/pyenv-virtualenv
+
+
+brew install pyenv
+brew install pyenv-virtualenv
+
+After installation, you'll still need to add to your profile (see caveats)
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+List possible installations
+pyenv install --list
+
+Install python 3 (not the new one yet)
+
+pyenv install 3.6.6
+
+pyenv virtualenv 3.6.6 my-virtual-env-3.6.6
+
+Activate and deactivate
+
+pyenv activate my-virtual-env-3.6.6
+pyenv deactivate
+
+

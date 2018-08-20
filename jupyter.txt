@@ -1,0 +1,26 @@
+Install Jupyter Notebook
+
+http://jupyter.org/install
+
+python -m pip install jupyter
+
+Create a new notebook (at this point you should see only the python versions installed on your computer)
+
+Adding an new kernel to your Jupyter
+
+Activate environment & install stuff
+
+pyenv activate my-virtual-env-3.6.6
+pip install tornado==4.5.3
+pip install ipykernel==4.8.2
+
+Create the kernel (from within the environment)
+python -m ipykernel install --user --name myenv --display-name "Python 3.6.6 - PyLadies“
+
+Refresh the notebook and change kernel
+
+Source: https://ipython.readthedocs.io/en/latest/install/kernel_install.html
+
+
+
+
