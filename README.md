@@ -36,7 +36,7 @@ B. Install Z-Shell [Zsh](https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e)
 
 C. Install [Oh My Zsh]
 
-brew install zsh
+`brew install zsh`
 
 `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
