@@ -29,25 +29,32 @@ A. Install [iterm2](https://www.iterm2.com/)
 
 B. Install Z-Shell [Zsh](https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e)
 
+`brew update`
 
-`ruby -e "$(curl -fsSL https://raw.zshhubusercontent.com/Homebrew/install/master/install)"`
+`brew install wget`
 
 
 C. Install [Oh My Zsh]
 
+brew install zsh
+
 `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
 
-D. Set up AutoSuggestions:
+D. Set up AutoSuggestions & Syntax highlighting:
 
 * Paste the following at the terminal prompt:
 
 `brew install zsh-autosuggestions`
 
+`brew install zsh-syntax-highlighting`
+
 
 * “Activate  autosuggestions:  Open the .zshrc file with a text editor, and append the following line at the end of your .zshrc:
 
  `source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh`
+
+  `source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
 
 
 * Reload of your .zshrc:
