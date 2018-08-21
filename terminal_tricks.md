@@ -3,8 +3,8 @@
 - [Install iTem2](#Instal-item2)
 - [Install Z-Shell](#install-z-shell)
 - [Install Oh My Zsh](#install-oh-my-zsh)
-- [Set up AutoSuggestions & Syntax highlighting](#autosuggest-syntax-highlighting)
-- [Theme](#theme)
+- [## Set up AutoSuggestions & Syntax highlighting](#autosuggest-syntax-highlighting)
+- [Select your Theme](#theme)
 
 
 
@@ -57,7 +57,7 @@ Life can be easier if you become accustomed to using terminal. By pimping your t
    $ source ~/.zshrc
 ```
 
-## Select your Theme: 
+## Select your Theme 
 
 Now you are using the bobby Russel theme... but you can try different ones [ZSH Themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
 
