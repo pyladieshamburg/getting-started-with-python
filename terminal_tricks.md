@@ -17,7 +17,7 @@ Install [iTerm2](https://www.iterm2.com/), an alternative to Terminal, by enteri
 ```
 
 ## Install Z-Shell
-[Zsh](https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e) or Z-Shell is a command-line interpreter. Install Z-Shell as follows: 
+Install [Zsh](https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e), a command-line interpreter.
 
 ```sh
   $ brew update
