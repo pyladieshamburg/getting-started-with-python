@@ -2,9 +2,9 @@
 
 
 # Getting started with Python for Data Science
-1. [Setting up Python](#Setting-up-Python)
-2. [Setting up Jupyter](#Setting-up-Jupyter)
-3. [Running your first analysis](#Running-your-first-analysis)
+- [Setting up Python](#setting-up-python)
+- [Setting up Jupyter](#setting-up-jupyter)
+- [Running your first analysis](#running-your-first-analysis)
 
 ## Setting up Python
 
