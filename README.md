@@ -2,11 +2,11 @@
 
 
 # Getting started with Python for Data Science
-1. [Setting up Python](#python)
-2. [Setting up Jupyter](#Jupyter)
-3. [Running your first analysis](#example)
+1. [Setting up Python](#Setting-up-Python)
+2. [Setting up Jupyter](#Setting-up-Jupyter)
+3. [Running your first analysis](#Running-your-first-analysis)
 
-## [Setting up Python](#)
+## Setting up Python
 
 First thing you need a package manager, for macOS you can use homebrew and for Linux apt-get.
 
@@ -82,7 +82,7 @@ Activating and deactivating environments
 
 
 
-## [Setting up Jupyter](#)
+## Setting up Jupyter
 
 Install [Jupyter Notebook](http://jupyter.org/install)
 
@@ -112,7 +112,7 @@ Source: [kernel_install_docs(https://ipython.readthedocs.io/en/latest/install/ke
 
 
 
-## [Running your first analysis](#)
+## Running your first analysis
 
 Now you are good to go. Let's look at some cool libraries we can try, for example on [visualising missing data](https://github.com/ResidentMario/missingno).
 
