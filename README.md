@@ -14,7 +14,7 @@ A. Install [Homebrew](https://brew.sh) (for macOS only)
 
 * Paste the following at the Terminal prompt.
 
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+`$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 
 (If you never used a terminal before or if you never improved it's appearence check the [terminal_tricks](https://github.com/pyladieshamburg/getting-started-with-python/blob/master/terminal_tricks.md) page on how to quickly make it more user friendly.)
@@ -77,6 +77,8 @@ Activating and deactivating environments
 ```sh 
 # activating
   $ pyenv activate my-virtual-env-3.6.6
+
+# deactivating
   $ pyenv deactivate
 ```
 
