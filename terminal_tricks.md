@@ -1,11 +1,10 @@
 
-# Setting up your terminal
-- [Install iTem2](#Instal-item2)
+# Setting up Your Terminal
+- [Install iTem2](#Install-iTem2)
 - [Install Z-Shell](#install-z-shell)
 - [Install Oh My Zsh](#install-oh-my-zsh)
-- [## Set up AutoSuggestions & Syntax highlighting](#autosuggest-syntax-highlighting)
-- [Select your Theme](#theme)
-
+- [Set up AutoSuggestions & Syntax highlighting](#autosuggest-syntax-highlighting)
+- [Select your Theme](#select-your-theme)
 
 
 Life can be easier if you become accustomed to using terminal. By pimping your terminal, you boost the appearance and get cool features that make your work more efficient.
@@ -50,7 +49,6 @@ Life can be easier if you become accustomed to using terminal. By pimping your t
     source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
     source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
-
 
 * Reload your .zshrc file:
 ```sh
