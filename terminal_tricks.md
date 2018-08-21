@@ -46,7 +46,7 @@ Life can be easier if you become accustomed to using terminal. By pimping your t
 
 * Reload your .zshrc file:
 ```sh
-   $ source ~/.zshrc“
+   $ source ~/.zshrc
 ```
 
 5. Theme: Now you are using the bobby Russel theme.. but you can try different ones [ZSH Themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
