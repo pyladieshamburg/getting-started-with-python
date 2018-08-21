@@ -1,10 +1,10 @@
 
 # Setting up your terminal
-- [Installing item2](#Installing item2)
-- [Install Z-Shell](#setting-up-jupyter)
-- [Install Oh My Zsh](#running-your-first-analysis)
-- [Set up AutoSuggestions & Syntax highlighting:](#running-your-first-analysis)
-- [Theme](#running-your-first-analysis)
+- [Instal item2](#Instal-item2)
+- [Install Z-Shell](#install-z-shell)
+- [Install Oh My Zsh](#install-oh-my-zsh)
+- [Set up AutoSuggestions & Syntax highlighting:](#autosuggest-syntax-highlighting)
+- [Theme](#theme)
 
 
 
