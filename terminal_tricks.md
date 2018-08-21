@@ -37,26 +37,25 @@ Life can be easier if you become accustomed to using terminal. By pimping your t
 
 ## Set Up AutoSuggestions & Syntax Highlighting
 
-AutoSuggestion allow you to save time typing repeated commands, by suggesting strings from your history that you can select by just using the right arrow and tab keys in sequence.  To install autosuggest, paste the following at the terminal prompt:
+* A. AutoSuggestion allow you to save time typing repeated commands, by suggesting strings from your history that you can select by just using the right arrow and tab keys in sequence.  To install autosuggest, paste the following at the terminal prompt:
 
 ```sh
   $ brew install zsh-autosuggestions
 ```
-
-"Syntax highlighting will display text in different colors and fonts according to the category of terms."  To install syntax hightlighting, paste the following at the terminal prompt:
+* B.  "Syntax highlighting will display text in different colors and fonts according to the category of terms."  To install syntax hightlighting, paste the following at the terminal prompt:
 
 ```sh
   $ brew install zsh-syntax-highlighting
 ```
 
-* “Activate  autosuggestions:  Open the .zshrc file with a text editor, and append the following line at the end of your ~/.zshrc file (use a command line editor e.g. vim):
+* C. “Activate  autosuggestions:  Open the .zshrc file with a text editor, and append the following line at the end of your ~/.zshrc file (use a command line editor e.g. vim):
 
 ```sh
     source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
     source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
-* Reload your .zshrc file:
+* D. Reload your .zshrc file:
 ```sh
    $ source ~/.zshrc
 ```
