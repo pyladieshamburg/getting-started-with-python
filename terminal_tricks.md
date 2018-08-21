@@ -36,7 +36,7 @@ Life can be easier if you become accustomed to using terminal. By pimping your t
 ```
 
 
-* “Activate  autosuggestions:  Open the .zshrc file with a text editor, and append the following line at the end of your ~/.shrc file (use a command line editor e.g. vim):
+* “Activate  autosuggestions:  Open the .zshrc file with a text editor, and append the following line at the end of your ~/.zshrc file (use a command line editor e.g. vim):
 
 ```sh
     source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
