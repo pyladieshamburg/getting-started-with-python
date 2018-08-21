@@ -3,8 +3,8 @@
 - [Install iTem2](#Install-iTem2)
 - [Install Z-Shell](#install-z-shell)
 - [Install Oh My Zsh](#install-oh-my-zsh)
-- [Set up AutoSuggestions & Syntax highlighting](#set-up-autosuggestions--syntax-highlighting)
-- [Select your Theme](#select-your-theme)
+- [Set Up AutoSuggestions & Syntax highlighting](#set-up-autosuggestions--syntax-highlighting)
+- [Select Your Theme](#select-your-theme)
 
 
 Life can be easier if you become accustomed to using terminal. By pimping your terminal, you boost the appearance and get cool features that make your work more efficient.
@@ -33,7 +33,7 @@ Life can be easier if you become accustomed to using terminal. By pimping your t
 ```
 
 
-## Set up AutoSuggestions & Syntax highlighting
+## Set Up AutoSuggestions & Syntax Highlighting
 
 * Paste the following at the terminal prompt:
 
@@ -55,7 +55,7 @@ Life can be easier if you become accustomed to using terminal. By pimping your t
    $ source ~/.zshrc
 ```
 
-## Select your Theme 
+## Select Your Theme 
 
 Now you are using the bobby Russel theme... but you can try different ones [ZSH Themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
 
