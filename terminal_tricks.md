@@ -25,7 +25,9 @@ Life can be easier if you become accustomed to using terminal. By pimping your t
 ```
 
 
-## Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
+## Install Oh My Zsh
+
+[Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) allows you to customize the appearance of your terminal.
 
 ```sh
   $ brew install zsh
@@ -35,13 +37,21 @@ Life can be easier if you become accustomed to using terminal. By pimping your t
 
 ## Set Up AutoSuggestions & Syntax Highlighting
 
-* Paste the following at the terminal prompt:
+AutoSuggestion allow you to save time typing repeated commands, by suggesting strings from your history that you can select by just using the right arrow and tab keys in sequence. 
+
+* To install autosuggest, paste the following at the terminal prompt:
 
 ```sh
   $ brew install zsh-autosuggestions
-  $ brew install zsh-syntax-highlighting
 ```
 
+"Syntax highlighting will display text in different colors and fonts according to the category of terms."
+
+* To install syntax hightlighting, paste the following at the terminal prompt:
+
+```sh
+  $ brew install zsh-syntax-highlighting
+```
 
 * “Activate  autosuggestions:  Open the .zshrc file with a text editor, and append the following line at the end of your ~/.zshrc file (use a command line editor e.g. vim):
 
@@ -57,6 +67,6 @@ Life can be easier if you become accustomed to using terminal. By pimping your t
 
 ## Select Your Theme 
 
-Now you are using the bobby Russel theme... but you can try different ones [ZSH Themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
+Now you are using the Bobby Russel theme... but you can try different ones [ZSH Themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
 
-    Try changing to "cloud", in your ~/.zshrc file
+    Try changing to "cloud", in your ~/.zshrc file by editing this line:  ZSH_THEME="cloud"
