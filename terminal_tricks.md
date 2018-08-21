@@ -1,5 +1,5 @@
 
-# Customizing up Your Terminal
+# Customizing Your Terminal
 - [Install iTem2](#Install-iTem2)
 - [Install Z-Shell](#install-z-shell)
 - [Install Oh My Zsh](#install-oh-my-zsh)
