@@ -1,64 +1,119 @@
 # getting-started-with-python
-Getting started with Python for Data Science
 
 
-Operating Systems: MAC and Linux 
+# Getting started with Python for Data Science
+1. [Setting up Python](#python)
+2. [Setting up Jupyter](#Jupyter)
+3. [Running your first analysis](#example)
 
+## [Setting up Python](#)
 
-A. [Install Homebrew](https://brew.sh)
+First thing you need a package manager, for macOS you can use homebrew and for Linux apt-get.
+
+A. Install [Homebrew](https://brew.sh) (for macOS only)
 
 * Paste the following at the Terminal prompt.
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
+```
+  (If you never used a terminal before or if you never improved it's appearence check the termianl_tricks page on how to quickly make it more user friendly.)
+  ```
+
+If you get an error here you might need to install xcode if it is missing
+
+```sh
+  $ xcode-select --install
+```
+
+B. Python installation
+
+On Linux you should have it installed on default, on macOS the default Python is not so user friendly.. we should [install the one from brew](ttps://docs.python-guide.org/starting/install/osx/).
+
+```sh
+  $ brew install python@2
+  $ export PATH="/usr/local/opt/python@2/libexec/bin:$PATH"
+```
+
+C. Working with virtual environments
+
+As there are many versions of python out there and sometimes you need to use different versions for different project it is better to use virtual environments on your system. This also helps later on when you want to separate library requirements per project.
+
+### Install python virtual [environment](https://github.com/pyenv/pyenv-virtualenv)
+
+Run the following commands in your terminal:
+
+```sh 
+  $ brew install pyenv
+  $ brew install pyenv-virtualenv
+```
+
+After installation, in order to get venv initialized when you open a terminal, you'll still need to add to your .zshrc profile (see caveats)
+
+```sh 
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+```
+
+### Create a virtual environment with Python 3 
 
 
-======= Thinking of pimping your terminal....
-## 1. Customizing Your Terminal Settings:
 
-Life easier if you become accustomed to using terminal. By pimping your terminal, you boost the appearance and  get cool features that make your work more efficient.
+```sh 
+  # List possible installations
+   $ pyenv install --list
+```
 
-Setting up your terminal
+Install python 3 
 
+```sh 
+  # Install python 3.6.6, last version before 3.7
+  $ pyenv install 3.6.6
+  # Create a new environment
+  $ pyenv virtualenv 3.6.6 my-virtual-env-3.6.6
+```
+Activating and deactivating environments
 
-A. Install [iterm2](https://www.iterm2.com/)
-
-
-`brew cask install iterm2`
-
-
-B. Install Z-Shell [Zsh](https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e)
-
-`brew update`
-
-`brew install wget`
-
-
-C. Install [Oh My Zsh]
-
-`brew install zsh`
-
-`sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+```sh 
+# activating
+  $ pyenv activate my-virtual-env-3.6.6
+  $ pyenv deactivate
+```
 
 
-D. Set up AutoSuggestions & Syntax highlighting:
 
-* Paste the following at the terminal prompt:
+## [Setting up Jupyter](#)
 
-`brew install zsh-autosuggestions`
+Install [Jupyter Notebook](http://jupyter.org/install)
 
-`brew install zsh-syntax-highlighting`
+```sh
+  $ python -m pip install jupyter
+```
+Start jupyter by running
+```sh
+  $ jupyter notebook
+```
+this will launch the notebook in your browser.. in the directory where you ran the command. Create a new notebook (at this point you should see only the python versions installed on your computer in the kernel list)
+
+Adding an new kernel to your Jupyter
+
+```sh
+# Activate environment & install stuff
+  $ pyenv activate my-virtual-env-3.6.6
+  (my-virtual-env-3.6.6)$ pip install tornado==4.5.3
+  (my-virtual-env-3.6.6)$ pip install ipykernel==4.8.2
+  # Create the kernel (from within the environment)
+  (my-virtual-env-3.6.6)$ python -m ipykernel install --user --name myenv --display-name "Python 3.6.6 - PyLadies“
+```
+
+Refresh the notebook and change kernel
+
+Source: [kernel_install_docs(https://ipython.readthedocs.io/en/latest/install/kernel_install.html)
 
 
-* “Activate  autosuggestions:  Open the .zshrc file with a text editor, and append the following line at the end of your .zshrc:
 
- `source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh`
+## [Running your first analysis](#)
 
-  `source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
+Now you are good to go. Let's look at some cool libraries we can try, for example on [visualising missing data](https://github.com/ResidentMario/missingno).
 
-
-* Reload of your .zshrc:
-
-`source ~/.zshrc“`
-
-
+Go to notebooks and open the see-missing-data.ipynb notebook.
