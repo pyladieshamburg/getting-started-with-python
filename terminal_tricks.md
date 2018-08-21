@@ -18,7 +18,7 @@ Life can be easier if you become accustomed to using terminal. By pimping your t
 ```
 
 
-3. Install [Oh My Zsh]
+3. Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 
 ```sh
   $ brew install zsh
