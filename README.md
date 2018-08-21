@@ -105,7 +105,7 @@ Adding an new kernel to your Jupyter
   (my-virtual-env-3.6.6)$ pip install tornado==4.5.3
   (my-virtual-env-3.6.6)$ pip install ipykernel==4.8.2
   # Create the kernel (from within the environment)
-  (my-virtual-env-3.6.6)$ python -m ipykernel install --user --name myenv --display-name "Python 3.6.6 - PyLadies“
+  (my-virtual-env-3.6.6)$ python -m ipykernel install --user --name myenv --display-name "Python 3.6.6 - PyLadies"
 ```
 
 Refresh the notebook and change kernel
