@@ -65,4 +65,6 @@ AutoSuggestion allow you to save time typing repeated commands, by suggesting st
 
 Now you are using the Bobby Russel theme... but you can try different ones [ZSH Themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
 
-    Try changing to the "cloud" theme by modifying the value of the "ZSH_THEME" attribute in your ~/.zshrc file, as follows: ZSH_THEME="cloud"
+Try changing to the "cloud" theme by modifying the value of the "ZSH_THEME" attribute in your ~/.zshrc file, as follows:
+
+     ZSH_THEME="cloud"
