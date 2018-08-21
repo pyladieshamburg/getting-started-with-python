@@ -1,6 +1,6 @@
 ### Setting up your terminal
 
-Life easier if you become accustomed to using terminal. By pimping your terminal, you boost the appearance and  get cool features that make your work more efficient.
+Life can be easier if you become accustomed to using terminal. By pimping your terminal, you boost the appearance and get cool features that make your work more efficient.
 
 1. Install [iterm2](https://www.iterm2.com/)
 
@@ -44,7 +44,7 @@ Life easier if you become accustomed to using terminal. By pimping your terminal
 ```
 
 
-* Reload of your .zshrc:
+* Reload your .zshrc file:
 ```sh
    $ source ~/.zshrc“
 ```
