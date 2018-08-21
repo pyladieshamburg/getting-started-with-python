@@ -62,7 +62,7 @@ D. Reload your .zshrc file:
 
 ## Select Your Theme 
 
-Now you are using the Bobby Russel theme... but you can try different ones [ZSH Themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
+Now you are using the Bobby Russel theme... but you can try different ones: [ZSH Themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
 
 Try changing to the "cloud" theme by modifying the value of the "ZSH_THEME" attribute in your ~/.zshrc file, as follows:
 
