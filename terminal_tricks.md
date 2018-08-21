@@ -1,6 +1,6 @@
 
 # Customizing Your Terminal
-- [Install iTem2](#Install-iTem2)
+- [Install iTerm2](#Install-iTerm2)
 - [Install Z-Shell](#install-z-shell)
 - [Install Oh My Zsh](#install-oh-my-zsh)
 - [Set Up AutoSuggestions & Syntax highlighting](#set-up-autosuggestions--syntax-highlighting)
@@ -9,8 +9,8 @@
 
 Life can be easier if you become accustomed to using terminal. By pimping your terminal, you boost the appearance and get cool features that make your work more efficient.
 
-## Install iTem2
-[iTerm2](https://www.iterm2.com/) is an alternative Terminal. To install item2, enter the following at the command prompt: 
+## Install iTerm2
+[iTerm2](https://www.iterm2.com/) is an alternative to Terminal. To install iTerm2, enter the following at the command prompt: 
 
 ```sh
   $ brew cask install iterm2
