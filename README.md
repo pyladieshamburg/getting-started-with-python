@@ -17,7 +17,7 @@ A. Install [Homebrew](https://brew.sh) (for macOS only)
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 
-(If you never used a terminal before or if you never improved it's appearence check the [termianl_tricks](https://github.com/pyladieshamburg/getting-started-with-python/blob/master/terminal_tricks.md) page on how to quickly make it more user friendly.)
+(If you never used a terminal before or if you never improved it's appearence check the [terminal_tricks](https://github.com/pyladieshamburg/getting-started-with-python/blob/master/terminal_tricks.md) page on how to quickly make it more user friendly.)
   
 
 If you get an error here you might need to install xcode if it is missing
