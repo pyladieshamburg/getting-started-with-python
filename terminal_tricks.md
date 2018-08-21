@@ -39,7 +39,7 @@ Life can be easier if you become accustomed to using terminal. By pimping your t
 
 AutoSuggestion allow you to save time typing repeated commands, by suggesting strings from your history that you can select by just using the right arrow and tab keys in sequence. 
 
-* To install autosuggest, paste the following at the terminal prompt:
+To install autosuggest, paste the following at the terminal prompt:
 
 ```sh
   $ brew install zsh-autosuggestions
@@ -47,7 +47,7 @@ AutoSuggestion allow you to save time typing repeated commands, by suggesting st
 
 "Syntax highlighting will display text in different colors and fonts according to the category of terms."
 
-* To install syntax hightlighting, paste the following at the terminal prompt:
+To install syntax hightlighting, paste the following at the terminal prompt:
 
 ```sh
   $ brew install zsh-syntax-highlighting
