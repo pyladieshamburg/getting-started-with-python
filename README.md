@@ -16,9 +16,9 @@ A. Install [Homebrew](https://brew.sh) (for macOS only)
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-```
-  (If you never used a terminal before or if you never improved it's appearence check the termianl_tricks page on how to quickly make it more user friendly.)
-  ```
+
+(If you never used a terminal before or if you never improved it's appearence check the [termianl_tricks](https://github.com/pyladieshamburg/getting-started-with-python/blob/master/terminal_tricks.md) page on how to quickly make it more user friendly.)
+  
 
 If you get an error here you might need to install xcode if it is missing
 
@@ -116,4 +116,4 @@ Source: [kernel_install_docs(https://ipython.readthedocs.io/en/latest/install/ke
 
 Now you are good to go. Let's look at some cool libraries we can try, for example on [visualising missing data](https://github.com/ResidentMario/missingno).
 
-Go to notebooks and open the see-missing-data.ipynb notebook.
+Go to notebooks and open the [see-missing-data.ipynb](https://github.com/pyladieshamburg/getting-started-with-python/blob/master/notebooks/see-missing-data.ipynb) notebook.
