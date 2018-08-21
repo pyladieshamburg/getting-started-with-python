@@ -1,7 +1,16 @@
-### Setting up your terminal
+
+# Setting up your terminal
+- [Installing item2](#Installing item2)
+- [Install Z-Shell](#setting-up-jupyter)
+- [Install Oh My Zsh](#running-your-first-analysis)
+- [Set up AutoSuggestions & Syntax highlighting:](#running-your-first-analysis)
+- [Theme](#running-your-first-analysis)
+
+
 
 Life can be easier if you become accustomed to using terminal. By pimping your terminal, you boost the appearance and get cool features that make your work more efficient.
 
+###  Installing item2
 1. Install [iterm2](https://www.iterm2.com/)
 
 
@@ -49,6 +58,6 @@ Life can be easier if you become accustomed to using terminal. By pimping your t
    $ source ~/.zshrc
 ```
 
-5. Theme: Now you are using the bobby Russel theme.. but you can try different ones [ZSH Themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
+5. Theme: Now you are using the bobby Russel theme... but you can try different ones [ZSH Themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
 
     Try changing to "cloud", in your ~/.zshrc file
