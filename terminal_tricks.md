@@ -10,7 +10,7 @@
 Life can be easier if you become accustomed to using terminal. By pimping your terminal, you boost the appearance and get cool features that make your work more efficient.
 
 ## Install iTerm2
-[iTerm2](https://www.iterm2.com/) is an alternative to Terminal. To install iTerm2, enter the following at the command prompt: 
+Install [iTerm2](https://www.iterm2.com/), an alternative to Terminal, by entering the following at the command prompt: 
 
 ```sh
   $ brew cask install iterm2
