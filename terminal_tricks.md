@@ -3,7 +3,7 @@
 - [Install iTem2](#Install-iTem2)
 - [Install Z-Shell](#install-z-shell)
 - [Install Oh My Zsh](#install-oh-my-zsh)
-- [Set up AutoSuggestions & Syntax highlighting](#set-up-autoSuggestions-&-syntax-highlighting)
+- [Set up AutoSuggestions & Syntax highlighting](#set-up-autoSuggestions-and-syntax-highlighting)
 - [Select your Theme](#select-your-theme)
 
 
