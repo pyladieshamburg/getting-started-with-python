@@ -33,7 +33,7 @@ On Linux you should have it installed on default, on macOS the default Python is
 ```sh
   $ brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/f2a764ef944b1080be64bd88dca9a1d80130c558/Formula/python.rb
   $ brew switch python 3.6.5_1
-  $ export PATH="/usr/local/opt/python@2/libexec/bin:$PATH"
+  $ #export PATH="/usr/local/opt/python3/libexec/bin:$PATH"
 ```
 
 C. Working with virtual environments
