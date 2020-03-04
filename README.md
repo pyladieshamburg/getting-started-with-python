@@ -31,9 +31,8 @@ B. Python installation
 On Linux you should have it installed on default, on macOS the default Python is not so user friendly.. we should [install the one from brew](ttps://docs.python-guide.org/starting/install/osx/).
 
 ```sh
-  $ brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/f2a764ef944b1080be64bd88dca9a1d80130c558/Formula/python.rb
-  $ brew switch python 3.6.5_1
-  $ #export PATH="/usr/local/opt/python3/libexec/bin:$PATH"
+  $ brew install python
+  $ #export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 ```
 
 C. Working with virtual environments
@@ -65,19 +64,19 @@ eval "$(pyenv virtualenv-init -)"
    $ pyenv install --list
 ```
 
-Install python 3 
+Install python 3.7 
 
 ```sh 
-  # Install python 3.6.6, last version before 3.7
-  $ pyenv install 3.6.6
+  # Install python 3.7.3
+  $ pyenv install 3.7.3
   # Create a new environment
-  $ pyenv virtualenv 3.6.6 my-virtual-env-3.6.6
+  $ pyenv virtualenv 3.7.3 my-virtual-env-3.7.3
 ```
 Activating and deactivating environments
 
 ```sh 
 # activating
-  $ pyenv activate my-virtual-env-3.6.6
+  $ pyenv activate my-virtual-env-3.7.3
 
 # deactivating
   $ pyenv deactivate
