@@ -9,6 +9,20 @@
 
 Life can be easier if you become accustomed to using terminal. By pimping your terminal, you boost the appearance and get cool features that make your work more efficient.
 
+Install [Homebrew](https://brew.sh) (for macOS only)
+
+* Paste the following at the Terminal prompt.
+
+`$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+  
+
+If you get an error here you might need to install xcode if it is missing
+
+```sh
+  $ xcode-select --install
+```
+
+
 ## Install iTerm2
 Install [iTerm2](https://www.iterm2.com/), an alternative to Terminal, by entering the following at the command prompt: 
 
