@@ -9,7 +9,7 @@
 
 Life can be easier if you become accustomed to using terminal. By pimping your terminal, you boost the appearance and get cool features that make your work more efficient.
 
-Install [Homebrew](https://brew.sh) (for macOS only)
+## Install [Homebrew](https://brew.sh) (for macOS only)
 
 * Paste the following at the Terminal prompt.
 
