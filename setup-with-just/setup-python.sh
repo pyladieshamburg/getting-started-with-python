@@ -10,9 +10,6 @@ just setup-python
 echo "INSTALLING PYENV 3.11.4"
 pyenv install 3.11.4
 
-#install dbeaver
-echo "INSTALLING DBEAVER"
-just setup-dbeaver
 
 #setup ssh connection to github 
 echo "CONFIGURING YOUR SECURE SOCKET SHELL KEY"
