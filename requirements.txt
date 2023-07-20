@@ -41,7 +41,7 @@ prometheus-client==0.3.1
 prompt-toolkit==1.0.15
 ptyprocess==0.6.0
 pyarrow==0.10.0
-Pygments==2.2.0
+Pygments==2.15.0
 pyparsing==2.2.0
 python-dateutil==2.7.3
 pytz==2018.5
