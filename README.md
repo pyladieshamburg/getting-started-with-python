@@ -24,26 +24,15 @@ We will use [homebrew](https://brew.sh/index_de) to install different programms 
 Install [Jupyter Notebook](http://jupyter.org/install)
 
 ```sh
+  $ python -m venv .venv
+  $ source .venv/bin/activate
   $ python -m pip install jupyter
 ```
 Start jupyter by running
 ```sh
   $ jupyter notebook
 ```
-this will launch the notebook in your browser.. in the directory where you ran the command. Create a new notebook (at this point you should see only the python versions installed on your computer in the kernel list)
-
-Adding an new kernel to your Jupyter
-
-```sh
-# Activate environment & install stuff
-  $ pyenv activate my-virtual-env-3.6.6
-  (my-virtual-env-3.6.6)$ pip install tornado==4.5.3
-  (my-virtual-env-3.6.6)$ pip install ipykernel==4.8.2
-  # Create the kernel (from within the environment)
-  (my-virtual-env-3.6.6)$ python -m ipykernel install --user --name myenv --display-name "Python 3.6.6 - PyLadies"
-```
-
-Refresh the notebook and change kernel
+this will launch the notebook in your browser.. in the directory where you ran the command. Create a new notebook.
 
 Source: [kernel_install_docs(https://ipython.readthedocs.io/en/latest/install/kernel_install.html)
 
@@ -53,4 +42,4 @@ Source: [kernel_install_docs(https://ipython.readthedocs.io/en/latest/install/ke
 
 Now you are good to go. Let's look at some cool libraries we can try, for example on [visualising missing data](https://github.com/ResidentMario/missingno).
 
-Go to notebooks and open the [see-missing-data.ipynb](https://github.com/pyladieshamburg/getting-started-with-python/blob/master/notebooks/see-missing-data.ipynb) notebook.
+Go to notebooks and open the [see-missing-data.ipynb](https://github.com/pyladieshamburg/getting-started-with-python/blob/main/notebooks/see-missing-data.ipynb) notebook.
