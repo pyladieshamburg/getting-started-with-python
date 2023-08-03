@@ -10,7 +10,7 @@ echo ${currentDirectory}
 osascript - "${currentDirectory}" <<EOF 
 on run {currentDirectory}
   tell application "Terminal"
-    do script "cd " & (quoted form of currentDirectory) & " && sh setup-just-and-terminal.sh" 
+    do script "cd " & (quoted form of currentDirectory) & " && sh setup-just.sh" 
     delay 90
     do script "cd " & (quoted form of currentDirectory) & " && sh setup-python.sh" 
   end tell
