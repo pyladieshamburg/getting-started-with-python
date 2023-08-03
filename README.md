@@ -18,6 +18,12 @@ We will use [homebrew](https://brew.sh/index_de) to install different programms 
     - Click Add SSH key.
 5. Start `Iterm` and go to Settings, go to Profiles, then Text. When you click on Profiles and select Text you can set the Font at the bottom of the window. Choose `JetBrainsMono Nerd Font`
 
+## Cloning the repository
+
+```sh
+   git clone git@github.com:pyladieshamburg/getting-started-with-python.git
+   cd getting-started-with-python
+```
 
 ## Setting up Jupyter
 
