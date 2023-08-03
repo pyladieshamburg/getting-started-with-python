@@ -1,0 +1,31 @@
+setup-terminal-part1:
+    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+setup-terminal-part2:
+    brew install --cask iterm2
+    brew install zsh-autosuggestions zsh-syntax-highlighting starship
+    echo 'source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
+    echo 'source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
+    echo 'eval "$(starship init zsh)"' >> ~/.zshrc
+    sed '/ZSH_THEME="robbyrussell"/d' ~/.zshrc
+    
+setup-python:
+    brew install openssl readline sqlite3 xz zlib
+    brew install pyenv
+    echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
+   
+
+setup-ssh:
+    #!/usr/bin/env bash
+    cd ~
+    ssh-keygen
+    cat .ssh/id_rsa.pub | pbcopy
+
+
+setup-nerd-font: 
+    brew tap homebrew/cask-fonts 
+    brew install --cask font-jetbrains-mono-nerd-font
+
+
+setup-vscode:
+    brew install --cask visual-studio-code
