@@ -1,5 +1,8 @@
 # getting-started-with-python
 
+Download this repo to your computer!
+
+During the setups you will also create private/public keys for GitHub. You can watch this [video](https://www.youtube.com/watch?v=84sO-0JxoHU) to understand more how that works.
 
 # Setup of your Macbook 
 

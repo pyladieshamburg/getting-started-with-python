@@ -8,6 +8,7 @@ This is the same as: `cd ~`
 From here you can navigate to other directories like `Downloads` or `Documents` using hte same `cd` command. 
 
 
+
 In the terminal run: 
 ```Set-ExecutionPolicy Bypass``` \
 To check this worked as expected you can run:
